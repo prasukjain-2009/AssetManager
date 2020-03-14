@@ -1,0 +1,11 @@
+{
+  "name": "assetmanager",
+  "version": "1.0.0",
+  "description": "Basic IO manager for crud server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Prasuk",
+  "license": "ISC"
+}
