@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- BOOTSTRAP -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <!-- FONTS -->
+  <link rel="stylesheet" href="https://use.typekit.net/npd5xcm.css">
+  <!-- JQUERY -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="/create.css">
+  <script src="/create.js"></script>
+  <title>Create an Asset</title>
+</head>
+
+<body>
+  <div class="container p-4">
+    <a id="backbtn" href="/" class="mr-3 mb-3"><i class="fa fa-arrow-left text-primary" ></i></a>
+    <div class="card p-0">
+      <div class="card-header text-center">
+        Create an Asset
+      </div>
+      <div class="card-body">
+        <form id="form" class="form">
+          <div class="form-row">
+            <label for="assetName">Name</label>
+            <input type="text" class="form-control" name="name" id="assetName" required>
+          </div>
+          <div class="form-row">
+            <label for="assetCategory">Category</label>
+            <input type="text" class="form-control" name="category" id="assetCategory" required>
+          </div>
+          <div class="form-row">
+            <label for="assetIncome">Income</label>
+            <input type="number" class="form-control" name="income" id="assetIncome">
+          </div>
+          <div class="form-row">
+            <label for="assetArea">Area(in Square Feet)</label>
+            <input type="number" class="form-control" name="area" id="assetArea">
+          </div>
+
+          <div class="form-row mb-3">
+            <label for="assetArea">Tags</label>
+            <input type="text" value="" id="tagInput" class="form-control"  placeholder="Add tags" />
+          </div>
+          <div class="form-row" id="tags">
+            <span class="tag" onclick="deleteTag('Apple')">Apple<i class="fa fa-times"></i></span>
+          </div>
+          <br>
+          <div class="form-row-reverse text-right">
+            <button type="submit" class="btn btn-primary mr-3">Submit</button>
+            <button id="clear" type="reset" class="btn btn-danger">Clear</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

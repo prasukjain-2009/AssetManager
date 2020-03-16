@@ -1,0 +1,14 @@
+/* #region MAIN */
+body{
+    font-family: sofia-pro,sans-serif;
+}
+
+/* tags */
+.tag{
+  background-color: #aaa;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 5px 10px;
+  margin: 5px;
+  cursor: pointer;
+}
