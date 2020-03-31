@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <!-- <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"> -->
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-xVVam1KS4+Qt2OrFa+VdRUoXygyKIuNWUUUBZYv+n27STsJ7oDOHJgfF0bNKLMJF" crossorigin="anonymous">
+    <!-- FONTS -->
+    <link rel="stylesheet" href="https://use.typekit.net/npd5xcm.css">
+    <!-- JQUERY -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/home.css">
+    <script src="/home.js"></script>
+    <title>Assets</title>
+  </head>
+
+</head>
+
+<body>
+  <div class="container p-4">
+    <div class="text-left mb-4">
+      <a class="btn btn-primary text-white" href="/create">Create</a>
+    </div>
+    <div class="card p-0">
+      <div class="card-header text-left">
+        <h7 class="text-secondary">Asset Management</h7>
+        <h3>
+          All Assets
+        </h3>
+      </div>
+      <div class="card-body row-reverse m-0 text-right">
+        <div class="mr-5 mb-3 d-inline-block">
+          <label for="selectCategory p-2">Category</label>
+          <select name="selectCategory" id="selectCategory" placeholder="Select Category" class="p-2"></select>
+        </div>
+        <div class="mr-5 mb-3 d-inline-block">
+          <label for="selectTag ml-5">Tag</label>
+          <select name="selectTag" id="selectTag" class="p-2" placeholder="Select Tag"></select>
+        </div>
+        <div class="mr-5 mb-3 d-inline-block">
+          <button class="btn btn-primary" id="btn-submit" class="p-2">Submit</button>
+          <button type="reset"  class="btn btn-default" id="btnReset">Reset</button>
+        </div>
+      </div>
+      <table class="card-body table table-hover mb-0">
+        <thead>
+          <tr>
+            <th>Asset Name</th>
+            <th>Income</th>
+            <th>Category</th>
+            <th>Tags</th>
+          </tr>
+        </thead>
+        <tbody id="assetbody">
+          <tr>
+            <th>dsad</th>
+            <td>$1</td>
+            <td>Brother</td>
+            <td> <span class="tag">Apple</span>
+              <span class="tag">Apple</span>
+            </td>
+          </tr>
+          <tr>
+            <th>2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th>3</th>
+            <td colspan="2">Larry the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+
+</html>

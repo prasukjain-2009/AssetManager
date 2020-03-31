@@ -1,0 +1,37 @@
+/* #region MAIN */
+body{
+    font-family: sofia-pro,sans-serif;
+}
+
+/* tags */
+
+.card{
+  box-shadow: 
+  inset 0 0 15px #3754aa00,
+  inset 0 0 20px #ffffff00,
+  4px 4px 15px #3754aa26,
+  -4px -4px 20px #f1f3f6,
+  inset 0px 0px 1px #f1f3f633;
+}
+.tag{
+  background-color: #aaa;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 5px 10px;
+  margin: 5px;
+  cursor: pointer;
+  color: #000;
+}
+
+.tag .fa{
+  display: none;
+  color: #fff;
+  margin-left: 5px;
+}
+.tag:hover .fa{
+  display: inline;
+}
+
+#backbtn{
+  font-size: 2rem;
+}
