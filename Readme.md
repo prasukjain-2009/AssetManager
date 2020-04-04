@@ -2,7 +2,7 @@
 
 ### About
 
-> A simple frontend + backend application  developed for understanding of NodeJs server side developement.
+> A simple frontend + backend application  developed for understanding of NodeJs server developement.
 
 ### Tech Stack
 * NodeJs
